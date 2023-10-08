@@ -1,0 +1,13 @@
+{
+  "client": [
+    "ParticleEngineMixin"
+  ],
+  "required": true,
+  "package": "com.laidbacksloth.oculusparticlefix.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "minVersion": "0.8",
+  "refmap": "oculusparticlefix.refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

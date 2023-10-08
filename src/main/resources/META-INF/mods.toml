@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT License"
+displayTest="IGNORE_ALL_VERSION"
+[[mods]]
+modId="oculusparticlefix"
+version="1.0"
+displayName="Oculus Particle Fix"
+logoFile="icon.png"
+authors="LaidBackSloth"
+description="Fixes https://github.com/Asek3/Oculus/issues/149"
+[[dependencies.oculusparticlefix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.oculusparticlefix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,)"
+    ordering="NONE"
+    side="CLIENT"
+[[dependencies.oculusparticlefix]]
+modId="oculus"
+mandatory=true
+versionRange="[1.4,)"
+ordering="NONE"
+side="CLIENT"
+
